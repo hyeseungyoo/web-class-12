@@ -1,0 +1,49 @@
+html{
+    font-size: 20px;
+    font-family: 'pretendard',sans-serif;
+}
+
+.inner-frame{
+    border:1px solid red;
+    width:1440px;
+    margin:0 auto;
+    margin-top: 3.75rem; 
+    text-align: center;
+}
+.inner-frame h1{
+    border: 1px solid blue;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    line-height: 1;
+}
+.desc{
+    margin-bottom: 5rem;
+    border: 1px solid blue;
+    line-height: 140%;
+}
+.banner{
+    border:1px solid blue;
+    height:441px;
+    background: url(../img/예제1.jpg) no-repeat 50% 50% / cover;
+    margin-bottom:5rem;
+}
+
+.inner-frame h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-transform:uppercase;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+.values li{
+    bosrder: 1px solid green;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.values li:last-of-type{
+    margin-bottom: 0;
+}
+
