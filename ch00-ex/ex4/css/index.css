@@ -16,6 +16,7 @@ html{
     justify-content: center;
     align-items: center;
     width: 1600;
+    margin:0 auto;
 }
 .banner h1{
     border: 1px solid lime;
