@@ -6,40 +6,31 @@ html{
     gap: 10px;
     background: url(../img/예제4bg.png) no-repeat 50% 50% / cover;
 }
-.banner {
-    border: 1px solid red;
-    width: 1600px;
+.stp1{
+    font-family: "아보";
+}
+.banner{
     height: 599px;
     background: url(../img/예제4_커피.jpg) no-repeat 50% 50% / cover;
-    border-radius: 50px;
+    border-radius: 2.5rem;
+    margin:0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1600;
-    margin:0 auto;
 }
 .banner h1{
-    border: 1px solid lime;
     text-align: center;
     color: #fff;
     font-size: 2.5rem;
     line-height: 100%;
     text-transform: uppercase;
 }
-.abo{
-  font-family: "Aboreto", system-ui;
-  font-weight: 400;
-  font-style: normal;
-
-}
 .common-frame{
-    border: 1px solid red;
     width: 1600px;
     margin:0 auto;
+    padding-top: 6rem;
 }
-
-h2.deco-title {
-    border: 1px solid blue;
+.common-frame h2{
     font-size: 7.5rem;
     line-height: 90%;
     text-transform: uppercase;
@@ -47,64 +38,45 @@ h2.deco-title {
     margin-bottom: 2rem;
 }
 .desc1{
-    border: 1px solid red;
     line-height: 140%;
     text-transform: uppercase;
-    margin-bottom: 48px;
+    margin: 2.4rem 0;
 }
-.desc1 em{
-    color: #770000;
+.wrap{
+    background: url(../img/BACKGROUND.png) no-repeat 50% 0%/ 100% auto;
 }
-body{
-    background: url(../img/BACKGROUND.png) repeat-x 0% 690px;
-}
-.cafe-gal{
+.gallery{
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem;
 }
-.cafe-gal figure{
+.gallery figure{
     flex: 1;
-    aspect-ratio: 790/434;
-    line-height: 0;
+    aspect-ratio: 520/434;
+    overflow: hidden;
+    border-radius: 1rem;
 }
-.cafe-gal figure img{
-    max-width: 100%;
+.gallery figure img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
+    transition: all 1s ease 0s;
 }
 .common-frame h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: 2rem;
     line-height: 140%;
-    margin-bottom: 1rem;
 }
-.common-frame h3 em{
-    color:#770000;
-}
-.common-frame h3+p{
-    margin-bottom: 48px;
+.desc2{
+    line-height: 140%;
     text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
 }
-.common-frame p strong{
-    font-weight: 600;
-}
-.한식{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
-}
-.한식 figure{
+.gallery.type2 figure{
     flex: 1;
     aspect-ratio: 790/434;
-    line-height: 0;
-}
-.한식 figure img{
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 1rem;
 }
