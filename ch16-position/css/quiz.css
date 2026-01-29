@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;}
+.box{
+    width: 800px;
+    height: 300px;
+    background-color: #ccc;
+    margin: 500px auto;
+}
+.a{background-color: red;}
+.b{background-color: green;}
+.c{background-color: blue;}
+.d{background-color: gold;}
+.e{background-color: pink;}
+
+.ex1{position: relative;
+right: 0;
+top: -300px;}
+
+.ex1>div{
+width: 100px;
+height: 100px;
+position: absolute;
+}
+.ex1.a{
+    left: 0;
+    top: 0;
+}
+.ex1 .b{
+    left: 0;
+    bottom: 0;
+}
+.ex1 .d{
+    right: 0;
+    top: 0;
+}
+.ex1 .e{
+    right: 0;
+    bottom: 0;
+}
+.ex1 .c{
+    left: calc(50%-50px);
+    top: calc(50%-50px);
+}
+.ex2 .c{
+    left:calc(50%-50px)
+    bottom:-100px
+}
+.ex2 .d{
+    right: -100px;
+    bottom:-100px;
+}
+.ex3{
+    position: relative;
+}
+.ex3 div{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+.ex3 .a{
+    left: 0;
+    top: -100%;
+}
+.ex3 .b{
+    left: 20%;
+    bottom:-100%;
+}
+.ex3 .c{
+    left: 40%;
+    top: -100%;
+}
+.ex3.d{
+    left: 80%;
+    top: -100%;
+}
+
+
+
+.ex5 
