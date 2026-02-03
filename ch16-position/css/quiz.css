@@ -143,3 +143,9 @@ position: absolute;
 }
 .ex6 .d{left: 0;}
 .ex6 .e{right: 0;}
+
+.ex1:hover .a{
+    left: -100px;
+    right: -100px;
+}
+
