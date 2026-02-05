@@ -38,3 +38,76 @@
     .j{background-color: hotpink;}
     .j:hover{transform: scale(0.7);}
     .k
+
+.banner{
+    height: 600px;
+    background-color: pink;
+    position: relative;
+}
+.banner h1{
+    border: 1px solid red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.b{background-color: blue;}
+.b:hover{transform:translateY(-50%);}
+
+.c{background-color: orange;}
+.c:hover{
+    transform:
+    translateY(-100px)
+    translateX(100px);
+    transform: translate(100px, -100px);
+}
+
+.parent{
+    min-height: 700px;
+    background-color: #ddd;
+    perspective: 1000px;
+    /*원근감 설정*/
+    perspective-origin: 50% 50%;
+}
+.d{background-color: green;}
+.parent:hover .d{transform:translateZ(500px)}
+
+.e{background-color: coral;
+   transform-origin: 0% 50%;}
+.e:hover{transform: rotate(-30deg);}
+
+.logo{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between
+    height: 80px
+    overflow: hidden;
+}
+.logo{
+    border: 1px solid blue;
+}
+.gnb{
+    border: 1px solid blue;
+    display: flex;
+}
+.gnb>li{
+    border: 1px solid green;
+}
+.gnb>li>a{
+    display: flex;
+    background-color: red;
+    height: 80px;
+    justify-content: space-between
+    align-items: center;
+    transition:all 0.6s ease 0s; 
+}
+header:hover{
+    max-height: 400px;
+}
+.logo{
+    border:1px solid blue;
+}
+.gnb{border: 1px solid blue;}
+.gnb{border: 1px;}
